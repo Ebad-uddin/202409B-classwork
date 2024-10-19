@@ -1,0 +1,42 @@
+/* universal selector */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.unorder_list{
+    list-style-type: upper-alpha;
+    list-style: none;
+    line-height: 30px;
+    word-spacing: 30px;
+}
+
+.navbar{
+    /* margin */
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    /* border 
+    border-width
+    border-style
+    border-color
+    */
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+
+}
+
+.navbar li{
+    list-style: none; 
+    display: inline;
+    padding-left: 30px;
+
+}
+.navbar li a{
+    text-decoration: none; 
+   
+}
