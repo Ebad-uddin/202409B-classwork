@@ -19,6 +19,7 @@
     width: 700px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: rgb(179, 179, 19);
     /* margin-right: 200px; */
     /* border 
     border-width
@@ -27,7 +28,7 @@
     */
     /* short hand property */
 
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
 }
 
 .navbar li{
@@ -51,10 +52,54 @@
 }
 .header{
     width: 1000px;
-    border-width: 2px;
+    /* border-width: 2px;
     border-style: solid;
-    border-color: brown;
+    border-color: brown; */
     margin: 20px auto 0px auto; /*short hand property
     /* margin: 0px auto; */
     padding: 10px;
+}
+.main{
+    width: 1020px;
+    margin: 10px auto;
+    /* border: 2px solid blue; */
+    height: 650px;
+}
+
+.card{
+    width: 300px;
+    border: 1px solid red;
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.card img{
+    width: 300px;
+}
+
+.card button{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.card button:hover{
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    /* border: 1px solid #000; */
+    width: 1020px;
+    margin: 10px auto;
+    height: 100px;
+}
+#copy_right{
+padding-left: 450px;
+margin-top: 20px;
 }
