@@ -1,0 +1,26 @@
+.container{
+    background-image: url("../images/bgimage.jpg");
+    height: 600px;
+    width: 1260px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+
+.heading{
+    padding-left: 200px;
+}
+.sub-heading{
+    padding-left: 300px;
+}
+p{
+    padding-left: 70px;
+}
+.button{
+    position: relative;
+    top: 100px;
+    right: 300px;
+}

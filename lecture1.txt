@@ -1,0 +1,43 @@
+Tim Berners-Lee
+1933
+WHAT IS HTML?
+HYPER TEXT MARKUP LANGUAGE.
+USED
+BASIC LAYOUT web structure 
+
+EDITORS
+NOTEPAD VSCODE,
+
+.html
+
+html 5 represent
+<!Doctype html>
+
+
+
+html tag base language
+
+
+
+tags 
+<>
+
+types of tag
+open tag and  closing tag
+<p>Content</p>
+
+self closing tag
+<hr>
+<br>
+
+
+
+
+
+
+
+
+
+  
+
+
