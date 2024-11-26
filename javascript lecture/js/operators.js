@@ -90,6 +90,55 @@ console.log(number);
 
 
 
+// =, +=, -=, *=, /=, %=, **=
 
+// variable naming rules
+
+// right way to declare a variable
+// const number_1 = 80;
+// const _number1 = 80;
+// const first_number = 80;
+// const firstNumber = 80;
+// const FirstNumber = 80;
+// const FirstNumber_2 = 80;
+
+// // wrong way
+// const 3_FirstNumber = 80;
+// const 3_FirstNumber = 80;
+// const First%Number = 80;
+// const First-Number = 80;
+
+// assignment operator
+
+let x = 80;
+let y = 20;
+let z;
+
+// x = x + y;
+x += y;
+// x = x - y;
+x -= y;
+// x = x * y;
+x *= y;
+// x = x / y;
+x /= y;
+
+console.log(x);
+
+
+
+// comparison operator
+
+let a =  4;
+let b = "3";
+
+console.log(a == b); // false
+
+
+console.log(a === b); // false
+
+console.log(a != b); // true
+
+console.log(a !== b); // true
 
 
