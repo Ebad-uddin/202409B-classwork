@@ -110,35 +110,62 @@ console.log(number);
 
 // assignment operator
 
-let x = 80;
-let y = 20;
-let z;
+// let x = 80;
+// let y = 20;
+// let z;
 
-// x = x + y;
-x += y;
-// x = x - y;
-x -= y;
-// x = x * y;
-x *= y;
-// x = x / y;
-x /= y;
+// // x = x + y;
+// x += y;
+// // x = x - y;
+// x -= y;
+// // x = x * y;
+// x *= y;
+// // x = x / y;
+// x /= y;
 
-console.log(x);
-
-
-
-// comparison operator
-
-let a =  4;
-let b = "3";
-
-console.log(a == b); // false
+// console.log(x);
 
 
-console.log(a === b); // false
 
-console.log(a != b); // true
+// // comparison operator
 
-console.log(a !== b); // true
+// let a =  4;
+// let b = "3";
+
+// console.log(a == b); // false
+
+
+// console.log(a === b); // false
+
+// console.log(a != b); // true
+
+// console.log(a !== b); // true
+
+
+// comditional statement
+
+// if, else if, else
+
+
+// let number_1 = 4;
+
+// if(number_1 == 5){
+//     console.log("numbers are equal");
+// }else{
+//     console.log("numbers are not equal");
+// }
+
+
+
+let age = prompt("Enter your age");
+
+if(age >= 18){
+    document.write("your age is " + age + "<br>you are eligible to vote");
+}else{
+    document.write("your age is " + age +"<br>you are not eligible to vote");
+}
+
+
+
 
 
