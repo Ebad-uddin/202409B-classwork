@@ -25,10 +25,8 @@
 // // plus sign will use as a sign of addition
 // document.write(2 + 4 + "<br>");
 
-
 // let result = num1 + num2;
 // document.write("the addition is :" + result + "<br>");
-
 
 // // subtraction
 
@@ -50,7 +48,6 @@
 // result = num1 % num2;
 // document.write("the modulus is :" + result + "<br>");
 
-
 // javascript predefined functions
 
 // prompt(), alert(), confirm(), parseInt(), parseFloat()
@@ -60,8 +57,6 @@
 // console.log(typeof fullName);
 // // alert(fullName);
 // confirm('are you sure you want to Delete?');
-
-
 
 // parseFloat()
 // const number1 = parseFloat(prompt("Enter a number"));
@@ -80,15 +75,10 @@ let number = 10;
 number++;
 console.log(number);
 
-
 number--;
 number--;
 
 console.log(number);
-
-
-
-
 
 // =, +=, -=, *=, /=, %=, **=
 
@@ -125,8 +115,6 @@ console.log(number);
 
 // console.log(x);
 
-
-
 // // comparison operator
 
 // let a =  4;
@@ -134,18 +122,15 @@ console.log(number);
 
 // console.log(a == b); // false
 
-
 // console.log(a === b); // false
 
 // console.log(a != b); // true
 
 // console.log(a !== b); // true
 
-
 // comditional statement
 
 // if, else if, else
-
 
 // let number_1 = 4;
 
@@ -155,15 +140,53 @@ console.log(number);
 //     console.log("numbers are not equal");
 // }
 
+// let age = prompt("Enter your age");
 
+// if(age >= 18){
+//     document.write("your age is " + age + "<br>you are eligible to vote");
+// }else{
+//     document.write("your age is " + age +"<br>you are not eligible to vote");
+// }
 
-let age = prompt("Enter your age");
+// let percentage = prompt("Enter your percentage");
 
-if(age >= 18){
-    document.write("your age is " + age + "<br>you are eligible to vote");
+// if (percentage >= 50 && percentage <= 59) {
+//   console.log("Grade - C");
+// } else {
+//   console.log("wrong percentage");
+// }
+
+// nested if 
+
+// if (condition) {
+//   if (condition) {
+//     statement;
+//   } else {
+//     statement
+//   }
+// } else {
+//     statement
+// }
+
+let weapon = prompt("Do you carry a weapon? \'yes\' Or \'no\'");
+
+if(weapon == "no"){
+    
+    let cheaque  = prompt("Do You have a cheaque \'yes\' Or \'no\'");
+    if(cheaque == "yes"){
+        document.write("you can visit to the counter");
+    }else{
+        document.write("Ghareeb admi cheaque book lai k aoo");
+    }
+
 }else{
-    document.write("your age is " + age +"<br>you are not eligible to vote");
+    document.write("Jao Jaa k andar bank loot lo");
 }
+
+
+
+
+
 
 
 
