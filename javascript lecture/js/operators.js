@@ -168,20 +168,41 @@ console.log(number);
 //     statement
 // }
 
-let weapon = prompt("Do you carry a weapon? \'yes\' Or \'no\'");
+// let weapon = prompt("Do you carry a weapon? \'yes\' Or \'no\'");
 
-if(weapon == "no"){
+// if(weapon == "no"){
     
-    let cheaque  = prompt("Do You have a cheaque \'yes\' Or \'no\'");
-    if(cheaque == "yes"){
-        document.write("you can visit to the counter");
-    }else{
-        document.write("Ghareeb admi cheaque book lai k aoo");
-    }
+//     let cheaque  = prompt("Do You have a cheaque \'yes\' Or \'no\'");
+//     if(cheaque == "yes"){
+//         document.write("you can visit to the counter");
+//     }else{
+//         document.write("Ghareeb admi cheaque book lai k aoo");
+//     }
 
-}else{
-    document.write("Jao Jaa k andar bank loot lo");
-}
+// }else{
+//     document.write("Jao Jaa k andar bank loot lo");
+// }
+
+
+
+// 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
