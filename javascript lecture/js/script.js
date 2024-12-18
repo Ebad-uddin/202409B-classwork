@@ -108,10 +108,10 @@ let counter = 1;
 
 // second syntax of array
 
-let fruits = new Array("apple", "mango", "orange", "grapes", "strawberry");
-fruits[5] = "guava";
+// let fruits = new Array("apple", "mango", "orange", "grapes", "strawberry");
+// fruits[5] = "guava";
 
-console.log(fruits)
+// console.log(fruits)
 
 // third syntax of array
 
@@ -133,9 +133,72 @@ console.log(fruits)
 // });
 
 
+// multi dimensional
+
+let person_info = ["ebad" , "ebad@gmail.com",
+    ['bachlers' , 'masters'],
+    "Karachi"
+]
+
+let marks = [
+    [23, 44, 56],
+    [55, 67, 88],
+    [44, 65, 76]
+]
+
+// for(let x = 0; x < marks.length; x++){
+//     for(let y = 0; y < marks[x].length; y++){
+//         console.log(marks[x][y])
+//     }
+// }
+
+
+// marks.forEach(function(arr){
+//     arr.forEach(e => {
+//     console.log(e)
+// });
+// });
 
 
 
+// user defined functions in javascript
+
+/* a block of code which can reuse again and again 
+function_keyword function_name(){
+    statement;
+}
+*/
+
+
+function full_name(){
+    document.write("Ebad uddin <br>");
+    document.write("Ebad uddin <br>");
+}
+
+// full_name();
+// full_name();
+// document.write('break time <br>')
+
+
+function addition(){
+    let a = 9;
+    let b = 8;
+    let result = a + b;
+    document.write(result)
+}
+// addition()
+
+
+
+
+// parameterized function
+
+function Addition(number1, number2 , number3){
+    let result = number1 + number2 + number3;
+    document.write(result);
+}
+
+Addition(2, 4 , 5)
 
 
 
