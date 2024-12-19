@@ -189,8 +189,6 @@ function addition(){
 // addition()
 
 
-
-
 // parameterized function
 
 function Addition(number1, number2 , number3){
@@ -198,7 +196,73 @@ function Addition(number1, number2 , number3){
     document.write(result);
 }
 
-Addition(2, 4 , 5)
+// Addition(2, 4 , 5);
+
+
+// function with return statement
+
+function multiplication(number1, number2){
+    let result = number1 * number2;
+    return result;
+}
+
+// let output = multiplication(3,3);
+// document.write(output)
+
+
+// objects
+
+
+/* 
+let obj = {
+    key1 : value1,  property
+    key2 : value2
+
+}
+*/
+
+
+
+let student = {
+    name : "saad",
+    email : "saad@gmail.com",
+    address : {
+        present_Add : "Karachi",
+        permanent_Add : "Islamabad"
+    },
+    roll_no : "23422"
+}
+
+// document.write("name: " + student.name + "<br>email: " +  student.email + "<br>address: " +  student.address + "<br>Roll No: " +  student.roll_no)
+
+// console.log(student.address.present_Add)
+
+
+
+let faculty = {
+    name : "Ebad",
+    Qualification : "Masters in CS",
+    Address : "Karachi",
+}
+
+for (const i in faculty) {
+    document.write(i + ": " + faculty[i] + "<br>")
+}
+
+
+// DOM(document object model)
+let paragraph  = document.getElementById("para")
+// paragraph.innerText = "this is paragraph"
+paragraph.innerHTML = "<li id='list'>this is paragraph</li>"
+console.log(paragraph);
+
+let list = document.getElementById('list');
+console.log(list)
+
+
+
+
+
 
 
 
