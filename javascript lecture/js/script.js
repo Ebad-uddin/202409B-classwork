@@ -259,6 +259,53 @@ console.log(paragraph);
 let list = document.getElementById('list');
 console.log(list)
 
+// getElementsByClassName()
+
+let headings = document.getElementsByClassName('head');
+console.log(headings)
+
+
+console.log(headings.length)
+
+
+for(let i = 0; i < headings.length; i++){
+    headings[i].innerText = "heading changed";
+}
+
+
+// getElementsByTagName()
+
+let paras = document.getElementsByTagName('p');
+console.log(typeof paras)
+
+
+for(let j = 0; j < paras.length; j++){
+    paras[j].innerText = "paragraphs changed";
+}
+
+
+
+ let heading =  document.getElementById('heading')
+
+
+let button1 = document.getElementById('btn1');
+let button2 = document.getElementById('btn2');
+
+button1.addEventListener('click', function(){
+ heading.style.backgroundColor = "red"
+heading.style.color = "white"
+heading.style.border = "2px solid black"
+})
+
+button2.addEventListener('click', function(){
+ heading.style.backgroundColor = ""
+heading.style.color = ""
+heading.style.border = ""
+})
+
+
+
+
 
 
 
