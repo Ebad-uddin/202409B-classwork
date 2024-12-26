@@ -251,7 +251,7 @@ for (const i in faculty) {
 
 
 // DOM(document object model)
-let paragraph  = document.getElementById("para")
+let paragraph  = document.getElementById("para1")
 // paragraph.innerText = "this is paragraph"
 paragraph.innerHTML = "<li id='list'>this is paragraph</li>"
 console.log(paragraph);
@@ -275,13 +275,13 @@ for(let i = 0; i < headings.length; i++){
 
 // getElementsByTagName()
 
-let paras = document.getElementsByTagName('p');
-console.log(typeof paras)
+// let paras = document.getElementsByTagName('p');
+// console.log(typeof paras)
 
 
-for(let j = 0; j < paras.length; j++){
-    paras[j].innerText = "paragraphs changed";
-}
+// for(let j = 0; j < paras.length; j++){
+//     paras[j].innerText = "paragraphs changed";
+// }
 
 
 
@@ -295,13 +295,55 @@ button1.addEventListener('click', function(){
  heading.style.backgroundColor = "red"
 heading.style.color = "white"
 heading.style.border = "2px solid black"
-})
+});
 
 button2.addEventListener('click', function(){
  heading.style.backgroundColor = ""
 heading.style.color = ""
 heading.style.border = ""
+});
+
+
+// let arr = ["Umer" , "rohail", "hamdan", "mahad", "ayan" , "ali" , "ebad" , "huzaifa"];
+// arr.forEach(function(element) {
+//     document.write(element + "<br>");
+// })
+
+// let numbers = [
+//     [1,2,3,4,5],
+//     [9,7,6,4,3]
+//     ] 
+
+//     numbers.forEach(function(element){
+//         element.forEach(e => {
+//             document.write(e + "<br>")
+//         });
+//     })
+
+
+
+let para_Text = document.getElementById("para3").innerText
+console.log(para_Text)
+
+let container = document.getElementsByClassName('container')
+let container_btn = document.getElementById('container_btn')
+container_btn.addEventListener("mouseover", function(){
+    container[0].style.border = "2px solid black"
+    container[0].style.padding = "20px"
+    container[0].style.color = "pink"
+    container[0].style.backgroundColor = "black"
+    container[0].style.fontStyle = "italic"
 })
+container_btn.addEventListener("mouseout", function(){
+    container[0].style.border = ""
+    container[0].style.padding = ""
+    container[0].style.color = ""
+    container[0].style.backgroundColor = ""
+    container[0].style.fontStyle = ""
+})
+// console.log(container[0].innerHTML)
+
+
 
 
 
