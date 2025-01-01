@@ -20,9 +20,9 @@
         <form style="padding: 20px;">
             <div class="form_content">
                 <label for="">First Name</label>
-                <input type="text">
+                <input type="text" id="first_name">
             </div>
-            <div class="form_content">
+            <!-- <div class="form_content">
                 <label for="">Last Name</label>
                 <input type="text">
             </div>
@@ -33,10 +33,37 @@
             <div class="form_content">
                 <label for="">Age</label>
                 <input type="number" min="0" max="10">
-            </div>
+            </div> -->
             <button id="submit_btn">Submit</button>
         </form>
+        <button id="clear_btn">Clear Storage</button>
+
+        <!-- <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Roll No</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="name"></td>
+                    <td id="email"></td>
+                    <td id="roll_no"></td>
+                </tr>
+            </tbody>
+        </table> -->
+
         
+        <input type="text" placeholder="Enter your name"  id="name">
+        <button id="btn" onclick="get_values()">submit</button>
+        <div id="box">
+
+        </div>
+
+
+
         
     </div>
     <script src="./js/form.js"></script>
